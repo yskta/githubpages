@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-        <h2><Link to="/">Home</Link></h2>
+        <h2><Link to="/home">Home</Link></h2>
         <h2><Link to="/profile">Profile</Link></h2>
     </div>
   );
