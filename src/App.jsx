@@ -12,7 +12,7 @@ function App() {
         <div className="main-content">
           <Routes>
             <Route path="/githubpages/" element={<Home />} />
-            <Route path="/githubpages/profile" element={<Profile />} />
+            <Route path="/profile" element={<Profile />} />
             {/* 他のルートをここに追加 */}
           </Routes>
         </div>
