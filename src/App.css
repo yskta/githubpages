@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+.app-container {
+  display: flex;
+  height: 200vh;
+}
+
+.sidebar {
+  width: 10%;
+  height: 100%;
+  padding: 20px;
+  background-color: #3e424a;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #3778c3;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
