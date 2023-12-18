@@ -15,3 +15,7 @@
 .padding-box{
 	padding-left: 20px;
 }
+
+.padding-box li a {
+    color:  #3778c3; /* 例えば、青色のリンク */
+  }

@@ -6,59 +6,76 @@ const ProfilePage = () => {
     <div className="profile-container">
       <h1>YK's Profile</h1>
 
-      <h2>About</h2>
+      <h2>About Me</h2>
       <div className="padding-box">
-        <p>
-          - Kyoto University Eng. B5<br/>
-          - 42 Tokyo Student<br/>
-          - Web Engineer
-        </p>
+        <ul>
+          <li>Kyoto University Eng. B5</li>
+          <li>42 Tokyo Student</li>
+          <li>Web Engineer</li>
+        </ul>
       </div>
       <h2>Education</h2>
       <div className="padding-box">
-        <p>
-          - 2019.4 ~ 2024.3<br/>
-          - Faculty of Engineering, Kyoto University <br/>
-          - Major in Industrial Chemistry <br/>
-          - Research Topic: Finding a Constitutive Relation from Nonlinear Rheological Data using a Sparse Identification Method<br/>
-          - Keywords: Rheology, Sparse Identification, Machine Learning
-        </p>
-        <p>
-          - 2024.4 ~ <br/>
-          - Graduate School of Information Engineering, Kyoto University <br/>
-        </p>
+        <ul>
+          <li>
+            2019.4 ~ 2024.3
+            <ul><li>Faculty of Engineering, Kyoto University</li>
+            <li>Major in Industrial Chemistry</li>
+            <li>Research Topic: Finding a Constitutive Relation from Nonlinear Rheological Data using a Sparse Identification Method</li>
+            <li>Keywords: Rheology, Sparse Identification, Machine Learning</li>
+            </ul>
+          </li>
+          <li>
+            2024.4 ~
+            <ul>
+              <li>Graduate School of Information Engineering, Kyoto University</li>
+              <li>Major in System Science</li>
+            </ul>
+          </li>
+        </ul>
       </div>
       <h2>Skills</h2>
         <div className="padding-box">
           <h3>Language</h3>
-            <p>
-              - Japanese :  Native<br/>
-              - English : TOEIC 820/TOEFL iBT 79<br/>
-            </p>
+          <ul>
+            <li>TOEIC 820</li>
+            <li>TOEFL iBT 79</li>
+          </ul>
           <h3>Programming Language</h3>
-            <p>
-              - C<br/>
-              - Python<br/>
-              - TypeScript
-            </p>
+          <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>TypeScript</li>
+            <li>C++</li>
+          </ul>
           <h3>Frameworks/Tools</h3>
-            <p>
-              - NestJS<br/>
-              - React<br/>
-              - Docker
-            </p>
-          </div>
+          <ul>
+            <li>NestJS</li>
+            <li>React</li>
+            <li>Docker</li>
+          </ul>
+        </div>
       <h2>Experiences</h2>
       <div className="padding-box">
-        <p>- Software Engineer Internship @TrustHub</p>
+        <ul>
+          <li>2023.9 ~ Software Engineer Internship @TrustHub</li>
+        </ul>
       </div>
       <h2>Interests</h2>
       <div className="padding-box">
-        <p>Coming soon...</p>
+        <ul>
+          <li>Web Development</li>
+          <li>Machine Learning</li>
+          <li>Statistics</li>
+        </ul>
       </div>
       <h2>Contact</h2>
       <div className="padding-box">
-        <p>Coming soon...</p>
+        <ul>
+          <li><a href="https://twitter.com/kyou_relearn" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://github.com/yskta" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://leetcode.com/yskta/" target="_blank" rel="noopener noreferrer">LeetCode</a></li>
+        </ul>
       </div>
     </div>
   );
